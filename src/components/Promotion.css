@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.row {
+.col {
     margin-bottom: 33px;
 }
 
@@ -15,4 +15,8 @@
 
 .center {
     text-align: center;
+}
+
+.card {
+    width: 300px !important;
 }
