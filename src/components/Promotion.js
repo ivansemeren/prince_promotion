@@ -35,7 +35,7 @@ class Promotion extends React.Component {
                 <Row>
                     {this.state.promos.map((promo, index) => (
                         <Col key={index}>
-                            <Card className="card" border="warning">
+                            <Card border="warning">
                                 <Card.Header className="center">New Promotion!!!</Card.Header>
                                 <Card.Img variant="top" src={promo.image} width={100} height={200}/>
                                 <Card.Body>
